@@ -1,3 +1,4 @@
+client () {
 echo -e "$green Getting Minecraft"
 echo -e "$blue ########             #########"
 echo -e "$blue ########             #########"
@@ -13,5 +14,23 @@ echo -e "$blue ########             #########"
 echo -e "$blue ########             #########"
 mkdir ~/minecraft
 curl --progress-bar https://s3.amazonaws.com/Minecraft.Download/launcher/Minecraft.jar > ~/minecraft/Minecraft.jar
-curl --progress-bar https://s3.amazonaws.com/Minecraft.Download/versions/1.8/minecraft_server.1.8.jar > ~/minecraft/minecraft_server.1.8.jar
+}
 
+server () {
+  
+echo -e "$green Getting Minecraft"
+echo -e "$blue ########             #########"
+echo -e "$blue ########             #########"
+echo -e "$blue ########             #########"
+echo -e "$blue #########           ##########"
+echo -e "$blue ######## #         # #########"
+echo -e "$blue ########  #       #  #########"
+echo -e "$blue ########   #     #   #########"
+echo -e "$blue ########    #   #    #########"
+echo -e "$blue ########     # #     #########"
+echo -e "$blue ########      #      #########"
+echo -e "$blue ########             #########"
+echo -e "$blue ########             #########"
+mkdir ~/minecraft
+curl --progress-bar https://s3.amazonaws.com/Minecraft.Download/versions/1.8/minecraft_server.1.8.jar > ~/minecraft/minecraft_server.1.8.jar
+}
