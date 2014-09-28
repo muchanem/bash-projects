@@ -1,1 +1,1 @@
-echo -e "$blue Hello World"
+echo -e "$blueHello World"
