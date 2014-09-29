@@ -1,8 +1,12 @@
-Bash-Projects
+Bash Projects
 =============
-*  import random
-*  project = "Projects"
-*  random = ["Random Bash"]
-*  ouput = random.choice(random)
-*  final = print("{} {}".format(output,project)
-*  print(final)
+* Collection of random bash code.
+
+getminecraft
+============
+* Will dowload minecraft as long as you have wifi or ethernet.
+
+getubuntu
+=========
+* Will get Ubuntu Desktop as long as you have wifi or ethernet.
+
