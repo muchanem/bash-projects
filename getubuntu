@@ -1,0 +1,2 @@
+mkdir ~/ubuntu
+curl -—progress-bar releases.ubuntu.com/14.04.1/ubuntu-14.04.1-desktop-amd64.iso > ~/ubuntu/ubuntu-14.04.1-desktop-amd64.iso
